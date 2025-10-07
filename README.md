@@ -1,19 +1,10 @@
+ ## Live with Docker 
 
-
-## Project info
-
-**URL**: https://lovable.dev/projects/92dc0c12-c831-4ed8-9ab7-0f875920f45d
-
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e1046139-2d93-4395-8e76-e90b77fb0fd3" />
 
 
 
 
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
