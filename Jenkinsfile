@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
                     sh 'docker rm -f  mohit5135/crypto-trade'
-                    sh 'docker run -d --name crypto-trade-webApp -p 8001:80 mohit5135/linux-terminal'
+                    sh 'docker run -d --name my-crypto-trade -p 8050:80 mohit5135/linux-terminal'
                 }
             }
         }
@@ -31,7 +31,7 @@ pipeline {
         stage('Post Deployment Testing') {
             steps {
                 script {
-                    sh 'curl -I http://localhost:8001'
+                    sh 'curl -I http://localhost:8050'
                 }
             }
         }
